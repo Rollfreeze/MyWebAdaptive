@@ -1,0 +1,118 @@
+/* Desktop First */  
+
+.col-desktop-8 {
+    width: 100%;
+}
+  
+.col-desktop-7 {
+    width: 87.5%;
+}
+  
+.col-desktop-6 {
+    width: 75%;
+}
+  
+.col-desktop-5 {
+    width: 62.5%;
+}
+  
+.col-desktop-4 {
+    width: 50%;
+}
+  
+.col-desktop-3 {
+    width: 37.5%;
+}
+  
+.col-desktop-2 {
+    width: 25%;
+}
+  
+.col-desktop-1 {
+    width: 12.5%;
+}
+
+.logo-container {
+    padding-top: 50px;
+}
+
+.photodiary-container {
+    background-color: #fcfcfc;
+}
+
+.photodiary {
+    background-image: url('/assets/photo-diary-bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 40%;
+}
+
+.description {
+    padding-top: 36px;
+    padding-bottom: 95px;
+}
+
+.girl-image-container {
+    padding-top: 50px;
+}
+
+.col-desktop-3 .h3 {
+    margin-top: 188px;
+}
+
+.col-desktop-1 .h2 {
+    margin-top: 175px;
+    text-align: right;
+}
+
+/* Свойство для отсупа снизу
+после завершения article */
+.article-end {
+    padding-bottom: 140px;
+}
+
+.col-desktop-2 .h4, .circle-container {
+    padding-top: 134px;
+}
+
+.circle-text {
+    padding-bottom: 134px;
+}
+
+.special {
+    text-align: center;
+    margin: 0 auto;
+
+    padding-top: 124px;
+    padding-bottom: 42px;
+}
+
+.col-desktop-2 .h5 {
+    padding-bottom: 136px;
+}
+
+/* .comment-avatar-container {
+    margin-top: 0px;
+} */
+
+.col-desktop-7 .h2 {
+    margin-top: 50px;
+}
+
+.col-desktop-6 .h2 {
+    padding-top: 25px;
+}
+
+.col-desktop-3 .comment-text-style {
+    padding-top: 5px;
+}
+
+.col-desktop-6 .comment-text-style {
+    margin-top: 60px;
+}
+
+/* от последнего коментария (блока)
+надо отсуп вниз */
+.single-comment:last-child {
+    padding-bottom: 125px;
+}

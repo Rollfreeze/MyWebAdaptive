@@ -1,0 +1,71 @@
+/* 
+  notebook
+
+  до 1120px 
+*/
+
+@media (max-width: 1120px) {
+    .container {
+      width: 100%;
+    }  
+    
+    .col-notebook-8 {
+        width: 100%;
+    }
+      
+    .col-notebook-7 {
+        width: 87.5%;
+    }
+      
+    .col-notebook-6 {
+        width: 75%;
+    }
+      
+    .col-notebook-5 {
+        width: 62.5%;
+    }
+      
+    .col-notebook-4 {
+        width: 50%;
+    }
+      
+    .col-notebook-3 {
+        width: 37.5%;
+    }
+      
+    .col-notebook-2 {
+        width: 25%;
+    }
+      
+    .col-notebook-1 {
+        width: 12.5%;
+    }
+
+    .col-notebook-0 {
+        display: none;
+    }
+
+    .photodiary {
+        background-position: 25% 50%;
+    }
+
+    .col-notebook-4 .h3 {
+        text-align: right;
+    }
+
+    .circle-container {
+        text-align: right;
+    }
+
+    .col-desktop-3 .h3 {
+        margin-top: 100px;
+    }
+
+    .col-desktop-1 .h2 {
+        margin-top: 100px;
+    }
+
+    .article-end {
+        padding-bottom: 100px;
+    }
+}

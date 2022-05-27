@@ -1,0 +1,170 @@
+/* Здесь описаны общие правила, используемые во всех файлах */
+
+.container {
+    width: 1120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+  
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+    font-size: 0;
+}
+  
+  
+[class*="col-"] {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.header, .pictures {
+    background-color: white;
+}
+
+.nav-item {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+
+    display: inline-block;
+    padding-top: 74px;
+    padding-bottom: 80px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left;
+    color: #b9b2a4;
+    font-size: 14px;
+
+    padding-top: 56px;
+    vertical-align: top;
+}
+
+.h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+    color: #626262;
+    font-size: 30px;
+
+    padding-top: 30px;
+    vertical-align: top;
+}
+
+.h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: left;
+
+    color: #242f51;
+    font-size: 20px;
+
+    padding-bottom: 20px;
+}
+
+.h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    text-align: center;
+
+    color: #626262;
+    font-size: 20px;
+
+    padding-top: 25px;
+}
+
+.circle-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: left;
+
+    color: #616368;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.article-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: #626262;
+    font-size: 14px;
+    text-indent: 30px;
+    line-height: 2;
+}
+
+.text-indent-zero {
+    padding-top: 44px;
+    text-indent: 0;
+}
+
+.features, .footer {
+    background-color: #f5f5f5;
+}
+
+.library-photo-container, .girl-image-container, .comment-avatar-container, .link-imgages-container, .footer-link-img-container {
+    overflow: hidden;
+}
+
+.comment-text-style {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.footer-text-style {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 40px 0;
+}
+
+.footer-link-img-container {
+    display: inline-block;
+}
+
+.footer-link-img-container {
+    margin-right: 15px;
+}
+
+.footer-link-img-container:last-child {
+    margin-right: 0;
+}
+
+.link-imgages-container {
+    margin-top: 40px;
+}
+
+.nav-item:hover {
+    color: #b9b2a4;
+}
+
+.footer-hover:hover {
+    color: #242f51;
+}
